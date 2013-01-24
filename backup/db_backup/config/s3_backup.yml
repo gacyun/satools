@@ -1,0 +1,9 @@
+s3_config:
+  enabled: false
+  access_key_id: s3_key_id
+  secret_access_key: s3_key
+
+s3_backup_db:
+  bucket: db.idapted.com
+  tag: us.tct.db1
+  files: ['/home/app/db_backup/files/*.bz2']

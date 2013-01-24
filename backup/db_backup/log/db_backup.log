@@ -1,0 +1,244 @@
+
+--------------------------------------
+DB backup starting at:2010-05-13_09:21:07
+rake aborted!
+Don't know how to build task 'db:dump:idp_wiki_production'
+/home/app/db_backup/rakefile.rb:25
+(See full trace by running task with --trace)
+(in /home/app/db_backup)
+2010-05-13T09:21:08 --------------------------------
+2010-05-13T09:21:08 Starting db dump (white list)...
+Send backup files to S3...
+removing old files 30 days ago...
+DB backup finished at:2010-05-13_09:21:08
+--------------------------------------
+DB backup starting at:2010-05-13_09:35:45
+(in /home/app/db_backup)
+2010-05-13T09:35:45 --------------------------------
+2010-05-13T09:35:45 Starting db dump (black list)...
+2010-05-13T09:35:45 Dumping database discuz_trainer...
+2010-05-13T09:35:45 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction discuz_trainer | bzip2 -c > /home/app/db_backup/files/discuz_trainer.20100513093545.sql.bz2
+2010-05-13T09:35:47 Dumping database freeswitch_foosball...
+2010-05-13T09:35:47 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction freeswitch_foosball | bzip2 -c > /home/app/db_backup/files/freeswitch_foosball.20100513093547.sql.bz2
+2010-05-13T09:35:48 Dumping database freeswitch_odbc...
+2010-05-13T09:35:48 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction freeswitch_odbc | bzip2 -c > /home/app/db_backup/files/freeswitch_odbc.20100513093548.sql.bz2
+2010-05-13T09:36:43 Dumping database icms_production...
+2010-05-13T09:36:43 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction icms_production | bzip2 -c > /home/app/db_backup/files/icms_production.20100513093643.sql.bz2
+2010-05-13T09:36:43 Dumping database idp_developer_production...
+2010-05-13T09:36:43 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction idp_developer_production | bzip2 -c > /home/app/db_backup/files/idp_developer_production.20100513093643.sql.bz2
+2010-05-13T09:36:44 Dumping database v2_board_production...
+2010-05-13T09:36:44 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_board_production | bzip2 -c > /home/app/db_backup/files/v2_board_production.20100513093644.sql.bz2
+2010-05-13T09:36:56 Dumping database v2_cas_production...
+2010-05-13T09:36:56 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_cas_production | bzip2 -c > /home/app/db_backup/files/v2_cas_production.20100513093656.sql.bz2
+2010-05-13T09:36:56 Dumping database v2_certification_training_production...
+2010-05-13T09:36:56 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_certification_training_production | bzip2 -c > /home/app/db_backup/files/v2_certification_training_production.20100513093656.sql.bz2
+2010-05-13T09:36:56 Dumping database v2_conference_production...
+2010-05-13T09:36:56 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_conference_production | bzip2 -c > /home/app/db_backup/files/v2_conference_production.20100513093656.sql.bz2
+2010-05-13T09:36:57 Dumping database v2_course_production...
+2010-05-13T09:36:57 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_course_production | bzip2 -c > /home/app/db_backup/files/v2_course_production.20100513093657.sql.bz2
+2010-05-13T09:36:57 Dumping database v2_crm_production...
+2010-05-13T09:36:57 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_crm_production | bzip2 -c > /home/app/db_backup/files/v2_crm_production.20100513093657.sql.bz2
+2010-05-13T09:37:51 Dumping database v2_dialer_production...
+2010-05-13T09:37:51 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_dialer_production | bzip2 -c > /home/app/db_backup/files/v2_dialer_production.20100513093751.sql.bz2
+2010-05-13T09:37:51 Dumping database v2_file_production...
+2010-05-13T09:37:51 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_file_production | bzip2 -c > /home/app/db_backup/files/v2_file_production.20100513093751.sql.bz2
+2010-05-13T09:38:00 Dumping database v2_interaction_production...
+2010-05-13T09:38:00 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_interaction_production | bzip2 -c > /home/app/db_backup/files/v2_interaction_production.20100513093800.sql.bz2
+2010-05-13T09:39:06 Dumping database v2_lpr_production...
+2010-05-13T09:39:06 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_lpr_production | bzip2 -c > /home/app/db_backup/files/v2_lpr_production.20100513093906.sql.bz2
+2010-05-13T09:39:40 Dumping database v2_mail_production...
+2010-05-13T09:39:40 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_mail_production | bzip2 -c > /home/app/db_backup/files/v2_mail_production.20100513093940.sql.bz2
+2010-05-13T09:39:43 Dumping database v2_payment_production...
+2010-05-13T09:39:43 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_payment_production | bzip2 -c > /home/app/db_backup/files/v2_payment_production.20100513093943.sql.bz2
+2010-05-13T09:39:47 Dumping database v2_point_production...
+2010-05-13T09:39:47 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_point_production | bzip2 -c > /home/app/db_backup/files/v2_point_production.20100513093947.sql.bz2
+2010-05-13T09:39:48 Dumping database v2_purchase_production...
+2010-05-13T09:39:48 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_purchase_production | bzip2 -c > /home/app/db_backup/files/v2_purchase_production.20100513093948.sql.bz2
+2010-05-13T09:39:48 Dumping database v2_qualify_production...
+2010-05-13T09:39:48 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_qualify_production | bzip2 -c > /home/app/db_backup/files/v2_qualify_production.20100513093948.sql.bz2
+2010-05-13T09:40:52 Dumping database v2_queue_production...
+2010-05-13T09:40:52 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_queue_production | bzip2 -c > /home/app/db_backup/files/v2_queue_production.20100513094052.sql.bz2
+2010-05-13T09:40:52 Dumping database v2_realtime_production...
+2010-05-13T09:40:52 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_realtime_production | bzip2 -c > /home/app/db_backup/files/v2_realtime_production.20100513094052.sql.bz2
+2010-05-13T09:41:29 Dumping database v2_scenario_production...
+2010-05-13T09:41:29 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_scenario_production | bzip2 -c > /home/app/db_backup/files/v2_scenario_production.20100513094129.sql.bz2
+2010-05-13T09:41:59 Dumping database v2_shift_production...
+2010-05-13T09:41:59 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_shift_production | bzip2 -c > /home/app/db_backup/files/v2_shift_production.20100513094159.sql.bz2
+2010-05-13T09:42:03 Dumping database v2_studycenter_production...
+2010-05-13T09:42:03 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_studycenter_production | bzip2 -c > /home/app/db_backup/files/v2_studycenter_production.20100513094203.sql.bz2
+2010-05-13T09:43:56 Dumping database v2_survey_production...
+2010-05-13T09:43:56 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_survey_production | bzip2 -c > /home/app/db_backup/files/v2_survey_production.20100513094356.sql.bz2
+2010-05-13T09:43:57 Dumping database v2_system_production...
+2010-05-13T09:43:57 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_system_production | bzip2 -c > /home/app/db_backup/files/v2_system_production.20100513094357.sql.bz2
+2010-05-13T09:44:02 Dumping database v2_trainer_production...
+2010-05-13T09:44:02 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_trainer_production | bzip2 -c > /home/app/db_backup/files/v2_trainer_production.20100513094402.sql.bz2
+2010-05-13T09:44:12 Dumping database v2_user_production...
+2010-05-13T09:44:12 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_user_production | bzip2 -c > /home/app/db_backup/files/v2_user_production.20100513094412.sql.bz2
+2010-05-13T09:44:40 Dumping database voip_master_production...
+2010-05-13T09:44:40 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction voip_master_production | bzip2 -c > /home/app/db_backup/files/voip_master_production.20100513094440.sql.bz2
+Send backup files to S3...
+/home/app/db_backup/files/discuz_trainer.20100513093545.sql.bz2
+/home/app/db_backup/files/freeswitch_foosball.20100513093547.sql.bz2
+/home/app/db_backup/files/freeswitch_odbc.20100513093548.sql.bz2
+/home/app/db_backup/files/icms_production.20100513093643.sql.bz2
+/home/app/db_backup/files/idp_developer_production.20100513093643.sql.bz2
+/home/app/db_backup/files/v2_board_production.20100513093644.sql.bz2
+/home/app/db_backup/files/v2_cas_production.20100513093656.sql.bz2
+/home/app/db_backup/files/v2_certification_training_production.20100513093656.sql.bz2
+/home/app/db_backup/files/v2_conference_production.20100513093656.sql.bz2
+/home/app/db_backup/files/v2_course_production.20100513093657.sql.bz2
+/home/app/db_backup/files/v2_crm_production.20100513093657.sql.bz2
+/home/app/db_backup/files/v2_dialer_production.20100513093751.sql.bz2
+/home/app/db_backup/files/v2_file_production.20100513093751.sql.bz2
+/home/app/db_backup/files/v2_interaction_production.20100513093800.sql.bz2
+/home/app/db_backup/files/v2_lpr_production.20100513093906.sql.bz2
+/home/app/db_backup/files/v2_mail_production.20100513093940.sql.bz2
+/home/app/db_backup/files/v2_payment_production.20100513093943.sql.bz2
+/home/app/db_backup/files/v2_point_production.20100513093947.sql.bz2
+/home/app/db_backup/files/v2_purchase_production.20100513093948.sql.bz2
+/home/app/db_backup/files/v2_qualify_production.20100513093948.sql.bz2
+/home/app/db_backup/files/v2_queue_production.20100513094052.sql.bz2
+/home/app/db_backup/files/v2_realtime_production.20100513094052.sql.bz2
+/home/app/db_backup/files/v2_scenario_production.20100513094129.sql.bz2
+/home/app/db_backup/files/v2_shift_production.20100513094159.sql.bz2
+/home/app/db_backup/files/v2_studycenter_production.20100513094203.sql.bz2
+/home/app/db_backup/files/v2_survey_production.20100513094356.sql.bz2
+/home/app/db_backup/files/v2_system_production.20100513094357.sql.bz2
+/home/app/db_backup/files/v2_trainer_production.20100513094402.sql.bz2
+/home/app/db_backup/files/v2_user_production.20100513094412.sql.bz2
+/home/app/db_backup/files/voip_master_production.20100513094440.sql.bz2
+removing old files 30 days ago...
+DB backup finished at:2010-05-13_09:55:34
+--------------------------------------
+DB backup starting at:2010-05-14_00:57:38
+(in /home/app/db_backup)
+2010-05-14T00:57:38 --------------------------------
+2010-05-14T00:57:38 Starting db dump (black list)...
+2010-05-14T00:57:38 Dumping database discuz_trainer...
+2010-05-14T00:57:38 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction discuz_trainer | bzip2 -c > /home/app/db_backup/files/discuz_trainer.20100514005738.sql.bz2
+2010-05-14T00:57:40 Dumping database freeswitch_foosball...
+2010-05-14T00:57:40 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction freeswitch_foosball | bzip2 -c > /home/app/db_backup/files/freeswitch_foosball.20100514005740.sql.bz2
+2010-05-14T00:57:40 Dumping database freeswitch_odbc...
+2010-05-14T00:57:40 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction freeswitch_odbc | bzip2 -c > /home/app/db_backup/files/freeswitch_odbc.20100514005740.sql.bz2
+2010-05-14T00:58:34 Dumping database icms_production...
+2010-05-14T00:58:34 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction icms_production | bzip2 -c > /home/app/db_backup/files/icms_production.20100514005834.sql.bz2
+2010-05-14T00:58:35 Dumping database idp_developer_production...
+2010-05-14T00:58:35 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction idp_developer_production | bzip2 -c > /home/app/db_backup/files/idp_developer_production.20100514005835.sql.bz2
+2010-05-14T00:58:35 Dumping database v2_board_production...
+2010-05-14T00:58:35 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_board_production | bzip2 -c > /home/app/db_backup/files/v2_board_production.20100514005835.sql.bz2
+2010-05-14T00:58:48 Dumping database v2_cas_production...
+2010-05-14T00:58:48 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_cas_production | bzip2 -c > /home/app/db_backup/files/v2_cas_production.20100514005848.sql.bz2
+2010-05-14T00:58:48 Dumping database v2_certification_training_production...
+2010-05-14T00:58:48 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_certification_training_production | bzip2 -c > /home/app/db_backup/files/v2_certification_training_production.20100514005848.sql.bz2
+2010-05-14T00:58:48 Dumping database v2_conference_production...
+2010-05-14T00:58:48 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_conference_production | bzip2 -c > /home/app/db_backup/files/v2_conference_production.20100514005848.sql.bz2
+2010-05-14T00:58:49 Dumping database v2_course_production...
+2010-05-14T00:58:49 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_course_production | bzip2 -c > /home/app/db_backup/files/v2_course_production.20100514005849.sql.bz2
+2010-05-14T00:58:49 Dumping database v2_crm_production...
+2010-05-14T00:58:49 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_crm_production | bzip2 -c > /home/app/db_backup/files/v2_crm_production.20100514005849.sql.bz2
+2010-05-14T00:59:45 Dumping database v2_dialer_production...
+2010-05-14T00:59:45 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_dialer_production | bzip2 -c > /home/app/db_backup/files/v2_dialer_production.20100514005945.sql.bz2
+2010-05-14T00:59:46 Dumping database v2_file_production...
+2010-05-14T00:59:46 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_file_production | bzip2 -c > /home/app/db_backup/files/v2_file_production.20100514005946.sql.bz2
+2010-05-14T00:59:55 Dumping database v2_interaction_production...
+2010-05-14T00:59:55 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_interaction_production | bzip2 -c > /home/app/db_backup/files/v2_interaction_production.20100514005955.sql.bz2
+2010-05-14T01:01:01 Dumping database v2_lpr_production...
+2010-05-14T01:01:01 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_lpr_production | bzip2 -c > /home/app/db_backup/files/v2_lpr_production.20100514010101.sql.bz2
+2010-05-14T01:01:36 Dumping database v2_mail_production...
+2010-05-14T01:01:36 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_mail_production | bzip2 -c > /home/app/db_backup/files/v2_mail_production.20100514010136.sql.bz2
+2010-05-14T01:01:39 Dumping database v2_payment_production...
+2010-05-14T01:01:39 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_payment_production | bzip2 -c > /home/app/db_backup/files/v2_payment_production.20100514010139.sql.bz2
+2010-05-14T01:01:43 Dumping database v2_point_production...
+2010-05-14T01:01:43 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_point_production | bzip2 -c > /home/app/db_backup/files/v2_point_production.20100514010143.sql.bz2
+2010-05-14T01:01:44 Dumping database v2_purchase_production...
+2010-05-14T01:01:44 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_purchase_production | bzip2 -c > /home/app/db_backup/files/v2_purchase_production.20100514010144.sql.bz2
+2010-05-14T01:01:44 Dumping database v2_qualify_production...
+2010-05-14T01:01:44 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_qualify_production | bzip2 -c > /home/app/db_backup/files/v2_qualify_production.20100514010144.sql.bz2
+2010-05-14T01:02:47 Dumping database v2_queue_production...
+2010-05-14T01:02:47 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_queue_production | bzip2 -c > /home/app/db_backup/files/v2_queue_production.20100514010247.sql.bz2
+2010-05-14T01:02:47 Dumping database v2_realtime_production...
+2010-05-14T01:02:47 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_realtime_production | bzip2 -c > /home/app/db_backup/files/v2_realtime_production.20100514010247.sql.bz2
+2010-05-14T01:03:24 Dumping database v2_scenario_production...
+2010-05-14T01:03:24 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_scenario_production | bzip2 -c > /home/app/db_backup/files/v2_scenario_production.20100514010324.sql.bz2
+2010-05-14T01:03:54 Dumping database v2_shift_production...
+2010-05-14T01:03:54 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_shift_production | bzip2 -c > /home/app/db_backup/files/v2_shift_production.20100514010354.sql.bz2
+2010-05-14T01:03:58 Dumping database v2_studycenter_production...
+2010-05-14T01:03:58 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_studycenter_production | bzip2 -c > /home/app/db_backup/files/v2_studycenter_production.20100514010358.sql.bz2
+2010-05-14T01:05:51 Dumping database v2_survey_production...
+2010-05-14T01:05:51 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_survey_production | bzip2 -c > /home/app/db_backup/files/v2_survey_production.20100514010551.sql.bz2
+2010-05-14T01:05:51 Dumping database v2_system_production...
+2010-05-14T01:05:51 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_system_production | bzip2 -c > /home/app/db_backup/files/v2_system_production.20100514010551.sql.bz2
+2010-05-14T01:05:56 Dumping database v2_trainer_production...
+2010-05-14T01:05:56 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_trainer_production | bzip2 -c > /home/app/db_backup/files/v2_trainer_production.20100514010556.sql.bz2
+2010-05-14T01:06:06 Dumping database v2_user_production...
+2010-05-14T01:06:06 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction v2_user_production | bzip2 -c > /home/app/db_backup/files/v2_user_production.20100514010606.sql.bz2
+2010-05-14T01:06:32 Dumping database voip_master_production...
+2010-05-14T01:06:32 mysqldump -u root -u root --default-character-set=utf8 --opt --extended-insert --triggers -R --hex-blob --single-transaction voip_master_production | bzip2 -c > /home/app/db_backup/files/voip_master_production.20100514010632.sql.bz2
+Send backup files to S3...
+/home/app/db_backup/files/discuz_trainer.20100514005738.sql.bz2
+/home/app/db_backup/files/freeswitch_foosball.20100514005740.sql.bz2
+/home/app/db_backup/files/freeswitch_odbc.20100514005740.sql.bz2
+/home/app/db_backup/files/icms_production.20100514005834.sql.bz2
+/home/app/db_backup/files/idp_developer_production.20100514005835.sql.bz2
+/home/app/db_backup/files/v2_board_production.20100514005835.sql.bz2
+/home/app/db_backup/files/v2_cas_production.20100514005848.sql.bz2
+/home/app/db_backup/files/v2_certification_training_production.20100514005848.sql.bz2
+/home/app/db_backup/files/v2_conference_production.20100514005848.sql.bz2
+/home/app/db_backup/files/v2_course_production.20100514005849.sql.bz2
+/home/app/db_backup/files/v2_crm_production.20100514005849.sql.bz2
+/home/app/db_backup/files/v2_dialer_production.20100514005945.sql.bz2
+/home/app/db_backup/files/v2_file_production.20100514005946.sql.bz2
+/home/app/db_backup/files/v2_interaction_production.20100514005955.sql.bz2
+/home/app/db_backup/files/v2_lpr_production.20100514010101.sql.bz2
+/home/app/db_backup/files/v2_mail_production.20100514010136.sql.bz2
+/home/app/db_backup/files/v2_payment_production.20100514010139.sql.bz2
+/home/app/db_backup/files/v2_point_production.20100514010143.sql.bz2
+/home/app/db_backup/files/v2_purchase_production.20100514010144.sql.bz2
+/home/app/db_backup/files/v2_qualify_production.20100514010144.sql.bz2
+/home/app/db_backup/files/v2_queue_production.20100514010247.sql.bz2
+/home/app/db_backup/files/v2_realtime_production.20100514010247.sql.bz2
+/home/app/db_backup/files/v2_scenario_production.20100514010324.sql.bz2
+/home/app/db_backup/files/v2_shift_production.20100514010354.sql.bz2
+/home/app/db_backup/files/v2_studycenter_production.20100514010358.sql.bz2
+/home/app/db_backup/files/v2_survey_production.20100514010551.sql.bz2
+/home/app/db_backup/files/v2_system_production.20100514010551.sql.bz2
+/home/app/db_backup/files/v2_trainer_production.20100514010556.sql.bz2
+/home/app/db_backup/files/v2_user_production.20100514010606.sql.bz2
+/home/app/db_backup/files/voip_master_production.20100514010632.sql.bz2
+removing old files 30 days ago...
+DB backup finished at:2010-05-14_01:17:31
+--------------------------------------
+DB backup starting at:2010-05-14_01:43:01
+Send backup files to S3...
+/home/app/db_backup/files/discuz_trainer.20100514005738.sql.bz2
+/home/app/db_backup/files/freeswitch_foosball.20100514005740.sql.bz2
+/home/app/db_backup/files/freeswitch_odbc.20100514005740.sql.bz2
+/home/app/db_backup/files/icms_production.20100514005834.sql.bz2
+/home/app/db_backup/files/idp_developer_production.20100514005835.sql.bz2
+/home/app/db_backup/files/v2_board_production.20100514005835.sql.bz2
+/home/app/db_backup/files/v2_cas_production.20100514005848.sql.bz2
+/home/app/db_backup/files/v2_certification_training_production.20100514005848.sql.bz2
+/home/app/db_backup/files/v2_conference_production.20100514005848.sql.bz2
+/home/app/db_backup/files/v2_course_production.20100514005849.sql.bz2
+/home/app/db_backup/files/v2_crm_production.20100514005849.sql.bz2
+/home/app/db_backup/files/v2_dialer_production.20100514005945.sql.bz2
+/home/app/db_backup/files/v2_file_production.20100514005946.sql.bz2
+/home/app/db_backup/files/v2_interaction_production.20100514005955.sql.bz2
+/home/app/db_backup/files/v2_lpr_production.20100514010101.sql.bz2
+/home/app/db_backup/files/v2_mail_production.20100514010136.sql.bz2
+/home/app/db_backup/files/v2_payment_production.20100514010139.sql.bz2
+/home/app/db_backup/files/v2_point_production.20100514010143.sql.bz2
+/home/app/db_backup/files/v2_purchase_production.20100514010144.sql.bz2
+/home/app/db_backup/files/v2_qualify_production.20100514010144.sql.bz2
+/home/app/db_backup/files/v2_queue_production.20100514010247.sql.bz2
+/home/app/db_backup/files/v2_realtime_production.20100514010247.sql.bz2
+/home/app/db_backup/files/v2_scenario_production.20100514010324.sql.bz2
+/home/app/db_backup/files/v2_shift_production.20100514010354.sql.bz2
+/home/app/db_backup/files/v2_studycenter_production.20100514010358.sql.bz2
+/home/app/db_backup/files/v2_survey_production.20100514010551.sql.bz2
+/home/app/db_backup/files/v2_system_production.20100514010551.sql.bz2
+/home/app/db_backup/files/v2_trainer_production.20100514010556.sql.bz2
+/home/app/db_backup/files/v2_user_production.20100514010606.sql.bz2
+/home/app/db_backup/files/voip_master_production.20100514010632.sql.bz2
+removing old files 30 days ago...
+DB backup finished at:2010-05-14_01:43:39
