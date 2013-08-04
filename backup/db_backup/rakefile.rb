@@ -1,6 +1,5 @@
-#dump mysql db
-namespace :db do
 
+namespace :db do
   namespace :dump do
     white_list = %w(db1 db2 db3)
     white_list.each { |d| d.strip!}
@@ -9,7 +8,7 @@ namespace :db do
     black_list.each { |d| d.strip!}
 
     def get_dbnames
-      `echo show databases | mysql -u root`.lines
+      `echo show databases | mysql -u root`.split
     end
 
     all_databases = get_dbnames

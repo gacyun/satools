@@ -4,6 +4,6 @@ s3_config:
   secret_access_key: s3_key
 
 s3_backup_db:
-  bucket: db.idapted.com
-  tag: us.tct.db1
+  bucket: db.sonitech.org
+  tag: us.ec2
   files: ['/home/app/db_backup/files/*.bz2']
